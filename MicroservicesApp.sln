@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5F20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{D72900C2-A610-4FAB-B9D2-4D0F2A345006}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE8FB785-8389-4B3B-B215-87F1266AE4E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,6 +13,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D72900C2-A610-4FAB-B9D2-4D0F2A345006} = {5F2010A9-9495-49A8-AF65-11DBFA07ED48}
+		{5F2010A9-9495-49A8-AF65-11DBFA07ED48} = {EE8FB785-8389-4B3B-B215-87F1266AE4E4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D72900C2-A610-4FAB-B9D2-4D0F2A345006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
