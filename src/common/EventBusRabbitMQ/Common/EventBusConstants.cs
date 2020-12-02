@@ -1,4 +1,7 @@
-$HEADER$namespace $NAMESPACE$
+namespace EventBusRabbitMQ.Common
 {
-  public class $CLASS$ {$END$}
+    public static class EventBusConstants
+    {
+        public const string BasketCheckoutQueue = "basketCheckoutQueue";
+    }
 }

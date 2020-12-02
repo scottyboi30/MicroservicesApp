@@ -1,4 +1,12 @@
-$HEADER$namespace $NAMESPACE$
+using System.Threading.Tasks;
+using Basket.API.Entities;
+
+namespace Basket.API.Repositories
 {
-  public class $CLASS$ {$END$}
+    public interface IBasketRepository
+    {
+        Task<BasketCart> GetBasket(string userName);
+        Task<BasketCart> UpdateBasket(BasketCart basket);
+        Task<bool> DeleteBasket(string userName);
+    }
 }

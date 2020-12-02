@@ -1,4 +1,9 @@
-$HEADER$namespace $NAMESPACE$
+using StackExchange.Redis;
+
+namespace Basket.API.Data
 {
-  public class $CLASS$ {$END$}
+    public interface IBasketContext
+    {
+        IDatabase Redis { get; }
+    }
 }

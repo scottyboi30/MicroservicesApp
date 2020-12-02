@@ -1,4 +1,14 @@
-$HEADER$namespace $NAMESPACE$
+using AutoMapper;
+using Basket.API.Entities;
+using EventBusRabbitMQ.Events;
+
+namespace Basket.API.Mapping
 {
-  public class $CLASS$ {$END$}
+    public class BasketMapping : Profile
+    {
+        public BasketMapping()
+        {
+            CreateMap<BasketCheckout, BasketCheckoutEvent>().ReverseMap();
+        }
+    }
 }
